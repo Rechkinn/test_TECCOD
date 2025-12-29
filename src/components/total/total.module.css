@@ -1,0 +1,43 @@
+.lineTotal {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lineTotal > :nth-child(n):not(:first-child) {
+  text-align: end;
+}
+
+.totalPriceServices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalPrice {
+  display: flex;
+}
+
+.totalPriceServicesValue {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.containerButton {
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.buttonCreateOrder {
+  max-width: 200px;
+}
+
+.textDefault {
+  text-align: center;
+}
+
+.count {
+  padding-right: 5px;
+}

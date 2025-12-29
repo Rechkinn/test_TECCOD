@@ -1,0 +1,13 @@
+.card {
+  padding: 8px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgb(219, 219, 219);
+}
+
+.card > :nth-child(n):not(:last-child) {
+  margin-bottom: 3px;
+}
+.card > :last-child {
+  margin-top: auto;
+}

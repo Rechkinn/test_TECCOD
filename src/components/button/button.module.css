@@ -1,0 +1,18 @@
+.buttonBase {
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add {
+  composes: buttonBase;
+  background-color: white;
+}
+
+.order {
+  composes: buttonBase;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  min-height: 35px;
+}
