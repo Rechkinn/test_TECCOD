@@ -26,16 +26,13 @@ function Total() {
           <>
             {selectedServices.map((service: TServiceWithCount) => {
               return (
-                <>
-                  <div className={styles.lineTotal}>
-                    <span>{service.name}</span>
-                    <span className={styles.count}>{service.count} шт.</span>
-                    <span className={styles.totalPriceService}>
-                      {service.price * service.count} ₽
-                    </span>
-                  </div>
-                  <hr />
-                </>
+                <div key={service.id} className={styles.lineTotal}>
+                  <span>{service.name}</span>
+                  <span className={styles.count}>{service.count} шт.</span>
+                  <span className={styles.totalPriceService}>
+                    {service.price * service.count} ₽
+                  </span>
+                </div>
               );
             })}
 

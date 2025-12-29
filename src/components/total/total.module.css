@@ -3,6 +3,7 @@
   grid-template-columns: 2fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgb(146, 146, 146);
 }
 
 .lineTotal > :nth-child(n):not(:first-child) {
